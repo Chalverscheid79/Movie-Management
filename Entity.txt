@@ -1,0 +1,43 @@
+Class Movie
+long mId
+String titel
+String discription
+int fromYear
+Actor
+Director
+Genre
+FileFormat
+
+Class Actor
+long AId
+String mainActor
+String supportingActor
+
+Class Director
+long dId
+String name
+
+ResositoryMovie
+long rId
+Movie
+
+Enum Genre
+Drama
+scienceFiction
+Action
+Comedie
+LoveStory
+
+Enum FileFormat
+mkv
+avi
+
+Enum Quality
+UHD
+HD1080P
+HD720P
+CAM
+TVSYNC
+
+
+
