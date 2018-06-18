@@ -6,7 +6,6 @@ import javax.persistence.*;
 public class Actor {
 
     @Id
-    @OneToMany
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String firstName;

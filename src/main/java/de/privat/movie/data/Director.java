@@ -9,7 +9,6 @@ import javax.persistence.*;
 public class Director {
 
     @Id
-    @OneToMany
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 

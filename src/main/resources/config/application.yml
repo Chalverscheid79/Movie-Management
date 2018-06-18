@@ -3,6 +3,7 @@ spring:
     url: jdbc:mysql://localhost/movies
     username: root
 
-# jpa:
-#    show-sql: true
-#    hibernate.ddl-auto: update
+  jpa:
+     show-sql: true
+     hibernate.ddl-auto: update
+

@@ -13,10 +13,10 @@ public class Movie {
     private String link;
 
     @ManyToOne
-    @JoinColumn(name = "id",nullable = false)
+    @JoinColumn(name = "actor_id",nullable = false)
     private Actor actor;
     @ManyToOne
-    @JoinColumn(name = "id",nullable = false)
+    @JoinColumn(name = "director_id",nullable = false)
     private Director director;
 
     private Genre genre;
